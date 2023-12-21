@@ -1,0 +1,70 @@
+.product-filter {
+  border: 1px solid var(--soul-shine-primary);
+  border-radius: 3.2rem;
+}
+
+.product-filter h6 {
+  font-size: 2.4rem;
+  line-height: 160%; /* 3.84rem */
+  letter-spacing: 0.072rem;
+  padding: 0.9rem 2.6rem;
+  border-bottom: 1px solid var(--soul-shine-primary);
+}
+
+.product-filter__item {
+  padding: 1.7rem 2.6rem;
+}
+
+.product-filter__item__checkbox-group {
+  max-height: 0px;
+  transition: all 0.15s linear;
+  overflow: hidden;
+}
+
+.product-filter__item.active .product-filter__item__checkbox-group {
+  max-height: 22rem;
+}
+
+.product-filter__item.active p img {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.product-filter__item:not(:last-child) {
+  border-bottom: 1px solid var(--soul-shine-primary);
+}
+
+.product-filter__item p {
+  font-size: 1.6rem;
+  line-height: 160%; /* 2.56rem */
+  letter-spacing: 0.048rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.product-filter__item p img {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) rotate(-90deg);
+  transition: all 0.15s linear;
+  z-index: -1;
+}
+
+.product-filter__item__checkbox-group label {
+  display: flex;
+  align-items: center;
+  margin-top: 1.7rem;
+  font-size: 1.2rem;
+  line-height: 160%; /* 1.92rem */
+  letter-spacing: 0.036rem;
+  cursor: pointer;
+}
+
+.product-filter__item__checkbox-group input {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.8rem;
+  border-color: #b4b4b4;
+}

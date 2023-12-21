@@ -1,0 +1,67 @@
+.feedback-summary {
+  border: 1px solid var(--soul-shine-primary);
+  border-radius: 3.2rem;
+}
+
+.feedback-summary__top {
+  padding: 3.5rem 0;
+  border-bottom: 1px solid var(--soul-shine-primary);
+}
+
+.feedback-summary__top h6 {
+  font-size: 9.6rem;
+  line-height: 140%; /* 13.44rem */
+  letter-spacing: 0.288rem;
+  padding: 0;
+  padding-bottom: 1.6rem;
+}
+
+.feedback-summary__top p {
+  padding-top: 1.6rem;
+  font-size: 2rem;
+  line-height: 160%; /* 3.2rem */
+  letter-spacing: 0.06rem;
+}
+
+.feedback-summary__bottom {
+  padding: 0 4.2rem 5.6rem 4.2rem;
+}
+
+.feedback-summary__bottom h6 {
+  font-size: 1.6rem;
+  line-height: 160%; /* 2.56rem */
+  letter-spacing: 0.048rem;
+  padding: 3.4rem 0 0 0;
+}
+
+.feedback-summary__rating-item {
+  font-size: 1rem;
+  line-height: 160%; /* 1.6rem */
+  letter-spacing: 0.03rem;
+  margin-top: 1.9rem;
+}
+
+.feedback-summary__rating-item input {
+  width: 18px;
+  height: 18px;
+  margin-right: 1.2rem;
+}
+
+.feedback-summary__rating-item img {
+  margin-right: 0.3rem;
+}
+
+.feedback-summary__rating-item__scale-bar {
+  background: #efe4dc;
+  height: 5px;
+  margin: 0 20px;
+  position: relative;
+}
+
+.feedback-summary__rating-item__scale-bar div {
+  height: 5px;
+  background: #f1b941;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
